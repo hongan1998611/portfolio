@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- icon -->
+    <script
+      src="https://kit.fontawesome.com/a2eca21ea1.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"> Avis <span>Vo</span> </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#footer" class="nav__link">Contact</a>
+            </li>
+          </ul>
+          <!-- close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="fa-regular fa-circle-xmark"></i>
+          </div>
+        </div>
+
+        <!-- toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <div class="home__data">
+              <h3 class="home__subtitle">Xin chào, <span>Tôi là </span></h3>
+              <h1 class="home__title">Avis Vo</h1>
+              <h3 class="home__education">Bureau Veritas Vietnam</h3>
+              <!-- <p class="home__description"> -->
+              <ul class="home__description">
+                <li>
+                  <b class="text__animation">
+                    Full-Stack Developer in the Future</b
+                  >- Đang theo học Full-Stack tại Nestech.
+                </li>
+                <li>
+                  <b class="text__animation">Result-Report Generation </b>- Nhân
+                  viên kiểm định tập đoàn Bureau Veritas
+                </li>
+              </ul>
+              <!-- </p> -->
+              <a href="#skills" class="home__button">About Me</a>
+            </div>
+            <div class="home__social">
+              <a
+                href="https://github.com/hongan1998611/Demo.git"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100009674082952&mibextid=ZbWKwL"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a
+                href="https://join.skype.com/invite/wzl11NFU6D9p"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="fa-brands fa-skype"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__image">
+            <svg
+              class="home__blob"
+              viewBox="0 0 550 592"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask id="maskBorder" mask-type="alpha">
+                <path
+                  d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157 
+                 171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157 
+                 448.468 508.583 456.391 501.157 460.678L287 584.322C279.574 588.609 
+                 270.426 588.609 263 584.322L48.843 460.678C41.4174 456.391 36.843 448.468 36.843 
+                 439.894V192.606C36.843 184.032 41.4174 176.109 48.843 171.822L263 48.1782Z"
+                  fill="black"
+                />
+              </mask>
+              <g mask="url(#maskBorder)">
+                <rect x="37" width="476" height="630" fill="url(#pattern2)" />
+
+                <path
+                  d="M285 51.6423L499.157 175.286C505.345 178.859 509.157 185.461 509.157 
+                 192.606V439.894C509.157 447.039 505.345 453.641 499.157 457.214L285 
+                 580.858C278.812 584.43 271.188 584.43 265 580.858L50.843 457.214C44.655 453.641 
+                 40.843 447.039 40.843 439.894V192.606C40.843 185.461 44.655 178.859 50.843 
+                 175.286L265 51.6423C271.188 48.0697 278.812 48.0696 285 51.6423Z"
+                  stroke="black"
+                  stroke-width="10"
+                />
+              </g>
+
+              <rect x="37" width="476" height="300" fill="url(#pattern3)" />
+
+              <defs>
+                <pattern
+                  id="pattern2"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use
+                    href="#imageBorder"
+                    transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"
+                  />
+                </pattern>
+
+                <pattern
+                  id="pattern3"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use
+                    href="#imageBorder"
+                    transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"
+                  />
+                </pattern>
+
+                <!-- Insert your profile (recommended size: 640 x 940) -->
+                <image
+                  class="home__img"
+                  id="imageBorder"
+                  width="640"
+                  height="940"
+                  href="./assets/img/demo.png"
+                />
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </section>
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <div class="skills__container container grid">
+          <div class="skills__data">
+            <h3 class="section__subtitle">Favorite <span>Skills</span></h3>
+            <h2 class="section__title">My Skills</h2>
+            <p class="skills__description">
+              Kỹ năng đỉnh nhất của tui là chém gió nên 6 kỹ năng này là xạo ke
+              đó nha :))
+            </p>
+            <a href="#projects" class="skills__button">See Projects</a>
+          </div>
+          <div class="skills__content">
+            <ol class="skills__group">
+              <li class="skills__item">VBA Excel</li>
+              <li class="skills__item">Chém gió</li>
+              <li class="skills__item">HTML</li>
+              <li class="skills__item">Microsoft-Office</li>
+              <li class="skills__item">CSS</li>
+              <li class="skills__item">Play-Games</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h3 class="section__subtitle">My <span>Service</span></h3>
+        <h2 class="section__title">What I do</h2>
+        <div class="services__container container grid">
+          <article class="services__card">
+            <i class="fa-sharp fa-solid fa-file-excel services__icon"></i>
+            <h2 class="services__title">VBA Excel</h2>
+            <p class="services__description">
+              Phát triển file Excel tự dộng hóa. Giúp tiết kiệm 80% thời gian
+              làm việc và nâng cao hiệu suất công việc. Cải thiện tính chính xác
+              khi dùng hệ thống tự động. Giảm tải dung lượng file giúp file hoạt
+              động nhanh hơn.
+            </p>
+          </article>
+
+          <article class="services__card">
+            <i class="fa-sharp fa-light fa-book services__icon"></i>
+            <h2 class="services__title">Web Developer</h2>
+            <p class="services__description">
+              Đang theo học Web Full-Stack tại trung tâm Nestech.<br />
+              Xây dựng và phát triển website theo file thiết kế và theo yêu cầu.
+              Đó chỉ là tương lai thui, chờ xem mới biết được.<br />
+              Keep going nhé!
+            </p>
+          </article>
+
+          <article class="services__card">
+            <i class="fa-solid fa-gamepad services__icon"></i>
+            <h2 class="services__title">Siêu Chém gió</h2>
+            <p class="services__description">
+              Được cái chém gió là gỏi thôi chứ có làm được cái gì đâu :))<br />
+              Có biết chơi game chút chút thôi. Anh em nào có cùng sở thích giơ
+              tay nhé!!
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <h3 class="section__subtitle">My <span>Jobs</span></h3>
+        <h2 class="section__title">Recent Projects</h2>
+        <div class="projects__container container grid">
+          <article class="projects__card">
+            <img
+              src="./assets/img/project-img-1.jpg"
+              alt="Projects image"
+              class="projects__img"
+            />
+            <div class="projects__modal">
+              <span class="projects__subtitle">VBA-EXCEL </span>
+              <h2 class="projects__title">CONTROL-RESULT</h2>
+              <a
+                href="./assets/project/AN-SL_CONTROL-2023.xlsm"
+                class="projects__button"
+                >View demo
+                <i><i class="fa-sharp fa-regular fa-link"></i></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img
+              src="./assets/img/project-img-2.jpg"
+              alt="Projects image"
+              class="projects__img"
+            />
+            <div class="projects__modal">
+              <span class="projects__subtitle">VBA-EXCEL </span>
+              <h2 class="projects__title">DATA SYNTHESIS</h2>
+              <a
+                href="./assets/project/HL DCD TEMPLATE.xlsb"
+                class="projects__button"
+                >View demo
+                <i><i class="fa-sharp fa-regular fa-link"></i></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img
+              src="./assets/img/project-img-3.jpg"
+              alt="Projects image"
+              class="projects__img"
+            />
+            <div class="projects__modal">
+              <span class="projects__subtitle">Web </span>
+              <h2 class="projects__title">Modern Website</h2>
+              <a href="#" class="projects__button"
+                >View demo
+                <i><i class="fa-sharp fa-regular fa-link"></i></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img
+              src="./assets/img/project-img-4.jpg"
+              alt="Projects image"
+              class="projects__img"
+            />
+            <div class="projects__modal">
+              <span class="projects__subtitle">Web </span>
+              <h2 class="projects__title">Modern Website</h2>
+              <a href="#" class="projects__button"
+                >View demo
+                <i><i class="fa-sharp fa-regular fa-link"></i></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img
+              src="./assets/img/project-img-5.jpg"
+              alt="Projects image"
+              class="projects__img"
+            />
+            <div class="projects__modal">
+              <span class="projects__subtitle">Web </span>
+              <h2 class="projects__title">Modern Website</h2>
+              <a href="#" class="projects__button"
+                >View demo
+                <i><i class="fa-sharp fa-regular fa-link"></i></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img
+              src="./assets/img/project-img-6.jpg"
+              alt="Projects image"
+              class="projects__img"
+            />
+            <div class="projects__modal">
+              <span class="projects__subtitle">Web </span>
+              <h2 class="projects__title">Modern Website</h2>
+              <a href="#" class="projects__button"
+                >View demo
+                <i><i class="fa-sharp fa-regular fa-link"></i></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer" id="footer">
+      <div>
+        <h3 class="footer__subtitle">More <span>Infor</span></h3>
+        <h1 class="footer__title">Contact Me</h1>
+      </div>
+      <div class="footer__container container grid">
+        <div class="footer__card">
+          <a href="#" class="footer__button">
+            <i><i class="fa-solid fa-phone"></i></i>
+          </a>
+          <h2 class="footer__subtitle">Phone</h2>
+          <span class="footer__subtitle">+84 979 640 487 </span>
+        </div>
+
+        <div class="footer__card">
+          <a href="#" class="footer__button">
+            <i><i class="fa-regular fa-envelope"></i></i>
+          </a>
+          <h2 class="footer__subtitle">Gmail</h2>
+          <span class="footer__subtitle">hongan1998611@gmail.com </span>
+        </div>
+
+        <div class="footer__card">
+          <a href="#" class="footer__button">
+            <i><i class="fa-solid fa-comments"></i></i>
+          </a>
+          <h2 class="footer__subtitle">Chat</h2>
+          <div class="footer__social">
+            <a
+              href="https://github.com/hongan1998611/Demo"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100009674082952&mibextid=ZbWKwL"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a
+              href="https://join.skype.com/invite/wzl11NFU6D9p"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="fa-brands fa-skype"></i>
+            </a>
+          </div>
+        </div>
+
+        <span class="footer__copy"> Get-go thôi anh em ơi! </span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
